@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Image</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script defer src="{{ url_for('static', filename='scripts.js') }}"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Upload an Image</h1>
+        <form action="/" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" id="file" accept="image/*" required>
+            <label for="model">Select Model:</label>
+            <select name="model" id="model">
+                <option value="svm">SVM</option>
+                <option value="log_reg">Logistic Regression</option>
+                <option value="random_forest">Random Forest</option>
+            </select>
+            <button type="submit">Upload and Predict</button>
+        </form>
+    </div>
+</body>
+</html>

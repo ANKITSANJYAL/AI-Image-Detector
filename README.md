@@ -11,7 +11,7 @@ https://ai-image-detector-n39p.onrender.com/
 - **Images labeled as AI-generated (1) or Real (0).**
 - **Dataset Size:** Includes a balanced number of AI-generated and real images.
 ```md
-![Data Distribution](plots/data_distribution.png)
+![Data Distribution](/plots/data_distribution.png)
 ```
 
 ### 📌 Feature Extraction

@@ -3,7 +3,8 @@
 This project explores the classification of images as either **AI-generated or real** using **machine learning models** such as **SVM, Logistic Regression, and Random Forest**. Instead of directly using pixel values, we extract meaningful **statistical features** to capture differences in texture, structure, and distribution patterns between AI-generated and real images.
 
 ---
-
+## DEMO?
+https://ai-image-detector-n39p.onrender.com/
 ## 🔹 Project Overview
 
 ### 📌 Dataset

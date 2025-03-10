@@ -34,9 +34,9 @@ To enhance classification accuracy, we compute the following seven features:
 - **Reasoning:** AI-generated images often have smoother shading with less variation in intensity, whereas real images may have more natural lighting variations.
 
 📌 **Paste the plot comparing mean intensity distribution here:**
-```md
+
 ![Pixel Intensity of AI labeled Images](https://github.com/ANKITSANJYAL/AI-Image-Detector/blob/main/plots/pixel_intensity_labelAI.png)
-```
+
 ```md
 ![Pixel Intensity of AI vs Real labeled Images](plots/pixel_intensity.png)
 ```

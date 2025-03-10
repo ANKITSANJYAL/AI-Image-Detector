@@ -10,9 +10,9 @@ https://ai-image-detector-n39p.onrender.com/
 ### 📌 Dataset
 - **Images labeled as AI-generated (1) or Real (0).**
 - **Dataset Size:** Includes a balanced number of AI-generated and real images.
-```md
+
 ![Data Distribution](/plots/data_distribution.png)
-```
+
 
 ### 📌 Feature Extraction
 Instead of feeding raw pixel values into machine learning models, we extract **seven statistical features** to differentiate AI-generated and real images effectively.
@@ -33,40 +33,36 @@ To enhance classification accuracy, we compute the following seven features:
 - **Definition:** Measures the average and central tendency of pixel brightness.
 - **Reasoning:** AI-generated images often have smoother shading with less variation in intensity, whereas real images may have more natural lighting variations.
 
-📌 **Paste the plot comparing mean intensity distribution here:**
 
 ![Pixel Intensity of AI labeled Images](plots/pixel_intensity_labelAI.png)
 
-```md
 ![Pixel Intensity of AI vs Real labeled Images](plots/pixel_intensity.png)
-```
 
 ### **2️⃣ Standard Deviation**
 - **Definition:** Captures variability in pixel intensity.
 - **Reasoning:** AI-generated images tend to have more uniform textures, leading to lower standard deviation values compared to real images, which often contain natural noise and gradients.
 
 📌 **Paste the standard deviation comparison plot here:**
-```md
+
 ![Standard Deviation Comparison](plots/std_dev.png)
-```
+
 
 ### **3️⃣ Edge Density**
 - **Definition:** Measures the proportion of pixels that form edges in an image.
 - **Reasoning:** AI-generated images sometimes have artificially smooth transitions, whereas real images tend to have sharper and more detailed edges.
 
 📌 **Paste the edge density distribution plot here:**
-```md
+
 ![Edge Density](plots/edge_detection.png)
-```
+
 
 ### **4️⃣ Frequency Components (Fourier Transform)**
 - **Definition:** Extracts high and low-frequency patterns.
 - **Reasoning:** AI-generated images may exhibit distinct frequency characteristics, often missing some high-frequency details that are naturally present in real images.
 
 📌 **Paste the frequency component visualization here:**
-```md
+
 ![Frequency Components](plots/fourier_transform.png)
-```
 
 ---
 
@@ -81,9 +77,9 @@ To enhance classification accuracy, we compute the following seven features:
 | Random Forest        | 0.8816    | 0.8812 | 0.8812   |
 
 📌 **Paste the training performance comparison plot here:**
-```md
+
 ![Training Performance](plots/training_performance.png)
-```
+
 
 ### **Testing Performance:**
 
@@ -94,20 +90,20 @@ To enhance classification accuracy, we compute the following seven features:
 | Random Forest        | 0.8543    | 0.8538 | 0.8538   |
 
 📌 **Paste the testing performance comparison plot here:**
-```md
+
 ![Testing Performance](plots/validation_performance.png)
-```
+
 
 ### 🔹 **Key Takeaways**
 - **Random Forest performed the best** due to its ability to handle complex feature interactions and non-linearity.
-```md
+
 ![Random Forest Feature Importance](plots/randomforest_feature_importance.png)
-```
+
 - **SVM showed competitive performance**, benefiting from well-defined decision boundaries.
 - **Logistic Regression struggled** as the dataset was highly non-linear and complex.
-```md
+
 ![Logistic Regression Feature Importance](plots/logistic_feature_importance.png)
-```
+
 ---
 
 ## 🔹 Next Steps
@@ -118,9 +114,9 @@ To improve classification accuracy further, we plan to:
 - **Investigate additional image features** such as color histograms and texture descriptors.
 
 📌 **Paste the roadmap visualization here (if applicable):**
-```md
+
 ![Future Roadmap](plots/roadmap.png)
-```
+
 
 ---
 

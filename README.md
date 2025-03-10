@@ -44,9 +44,6 @@ To enhance classification accuracy, we compute the following seven features:
 
 📌 **Paste the standard deviation comparison plot here:**
 
-![Standard Deviation Comparison](plots/std_dev.png)
-
-
 ### **3️⃣ Edge Density**
 - **Definition:** Measures the proportion of pixels that form edges in an image.
 - **Reasoning:** AI-generated images sometimes have artificially smooth transitions, whereas real images tend to have sharper and more detailed edges.
@@ -113,12 +110,6 @@ To improve classification accuracy further, we plan to:
 - **Explore ensemble methods** combining multiple classifiers for better generalization.
 - **Investigate additional image features** such as color histograms and texture descriptors.
 
-📌 **Paste the roadmap visualization here (if applicable):**
-
-![Future Roadmap](plots/roadmap.png)
-
-
----
 
 
 

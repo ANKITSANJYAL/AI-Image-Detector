@@ -35,7 +35,7 @@ To enhance classification accuracy, we compute the following seven features:
 
 📌 **Paste the plot comparing mean intensity distribution here:**
 ```md
-![Pixel Intensity of AI labeled Images](plots/pixel_intensity_labelAI.png)
+![Pixel Intensity of AI labeled Images](https://github.com/ANKITSANJYAL/AI-Image-Detector/blob/main/plots/pixel_intensity_labelAI.png)
 ```
 ```md
 ![Pixel Intensity of AI vs Real labeled Images](plots/pixel_intensity.png)
